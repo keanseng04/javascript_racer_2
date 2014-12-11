@@ -1,0 +1,30 @@
+.container {
+  margin: 20px auto;
+  width: 800px;
+  padding: 0px 20px 20px 20px;
+  border: none;
+  font-family: serif;
+}
+
+.racer_table td {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+}
+
+.racer_table td.active {
+  background-color: red;
+}
+
+#player1, #player2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px 0 30px 0;
+}
+
+.racer_table td.road {
+  background-color: yellow;
+  height: 5px;
+  width: 5px;
+}
+

@@ -1,0 +1,17 @@
+<div class="container">
+  <h1><%= @message %></h1>
+
+
+  <div id="url">
+      <form action="/url/<%= @game.url %>" method="post">
+          <input type="submit" value="Game URL"><br><br>
+      </form>
+  </div>
+
+  <div id="home">
+      <form action="/" method="get">
+          <input type="submit" value="Go back to main menu"><br><br>
+      </form>
+  </div>
+
+</div>

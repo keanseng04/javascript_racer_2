@@ -1,0 +1,43 @@
+<div class="container">
+    <h1>Fire your engines!</h1>
+
+    <table class="racer_table">
+  <tr id="player1_strip">
+    <td id="first" class="active">Q</td>
+    <% 40.times do%>
+    <td></td>
+    <% end %>
+  </tr>
+  <tr></tr>
+    <% 41.times do%>
+    <td class="road"></td>
+    <% end %>
+  </tr>
+  <tr id="player2_strip">
+    <td class="active">P</td>
+    <% 40.times do%>
+    <td></td>
+    <% end %>
+  </tr>
+</table>
+
+    <!-- <form id="myform" action='/url' method='post'>
+        <input type="text" id="time" name="time" readonly>
+    </form> -->
+<table style=display:inline-block>
+    <tr style=height:20px>
+        <td id="player1">Player 1: <%= @player1.name %></td>
+        <td>(PRESS "Q")</td>
+    </tr>
+    <tr style=height:20px>
+        <td id="player2">Player 2: <%= @player2.name %></td>
+        <td>(PRESS "P")</td>
+    </tr>
+</table>
+      </br>
+
+  <div id="time">
+  </div>
+
+
+</div>
